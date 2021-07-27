@@ -1,4 +1,5 @@
 **Comparing runtimes of `x'Ax` operation (A is symmetric) using Eigen's selfAdjointView vs custom for loop.**  
+* Running time for a particular dimension `d` is averaged for 100 random instances of `A` and `x`.
 
 Dimension | Time taken by Custom Loop (in ns) | Time taken using Eigen's selfAdjointView (in ns)
 --- | --- | ---
