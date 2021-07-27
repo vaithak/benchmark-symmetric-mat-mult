@@ -1,5 +1,4 @@
-# benchmark-symmetric-mat-mult
-Comparing runtimes of `x'Ax` operation (A is symmetric) using Eigen's selfAdjointView vs custom for loop.
+**Comparing runtimes of `x'Ax` operation (A is symmetric) using Eigen's selfAdjointView vs custom for loop.**  
 
 Dimension | Time taken by Custom Loop (in ns) | Time taken using Eigen's selfAdjointView (in ns)
 --- | --- | ---
